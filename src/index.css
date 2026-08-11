@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Segoe UI", sans-serif;
+  background: #efefef;
+  color: #111;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a,
+button,
+input {
+  font: inherit;
+}
+
+button,
+input {
+  border-radius: 0;
+}
