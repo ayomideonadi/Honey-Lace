@@ -7,5 +7,9 @@ export default defineConfig({
   appType: 'spa',
   server: {
     middlewareMode: false,
+    historyApiFallback: true
+  },
+  preview: {
+    middlewareMode: false
   }
 })
