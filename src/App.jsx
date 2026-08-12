@@ -35,6 +35,14 @@ function App() {
         <Route path="/man" element={<Man />} />
         <Route path="/woman" element={<Woman />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={
+          <main className="page-content section-dark">
+            <div className="content-card">
+              <h2>404 - Page Not Found</h2>
+              <p>Sorry, the page you're looking for doesn't exist.</p>
+            </div>
+          </main>
+        } />
       </Routes>
     </div>
   )
